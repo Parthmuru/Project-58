@@ -5,7 +5,7 @@ body {
     color: white;
 }
 
-img {
+#profile {
     border-radius: 50%;
     width: 300px;
     margin-bottom: 100px;
@@ -98,9 +98,8 @@ p {
 
 .link:hover {
     font-size: 25px;
-    background-color: black;
-    color: white;
-}
+    background-color: white;
+    }
 #videos {
     background: linear-gradient(#fc0303 0%, #fc9803 100%);
 }
@@ -111,3 +110,18 @@ p {
     background-color: black;
     font-size: 25px;
     }
+#opr {
+    width: 377px;
+}
+#inspiration {
+background: linear-gradient(#00fffb 0%, #00ffbb 100%);
+}
+img {
+    transition: transform .2s;
+}
+img:hover {
+    transform: scale(0.9);
+}
+.nn {
+    color: black;
+}
