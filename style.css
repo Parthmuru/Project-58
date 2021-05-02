@@ -125,3 +125,9 @@ img:hover {
 .nn {
     color: black;
 }
+html {
+    scroll-behavior: smooth;
+}
+#contact {
+    background: linear-gradient(#36d2f5 0%, #11f7af 100%);
+}
